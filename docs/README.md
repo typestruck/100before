@@ -16,6 +16,10 @@ Requirements (definitions, business logic and mockups) for 100before are grouped
 
 1. [Todo](todo/README.md)
 
+Features related to bucket lists
+
 2. [Social](social/README.md)
+
+Features related to user accounts and user interactions
 
 2. [Gamification](gamification/README.md)
