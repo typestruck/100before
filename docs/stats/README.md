@@ -1,6 +1,6 @@
-# Gamification
+# Stats
 
-Features related to gamification
+Features related to user and bucket list stats
 
 # Table of contents
 
