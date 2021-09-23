@@ -35,7 +35,9 @@ Bucket lists have the following fields
 
 Each item on a list has the following fields
 
-* Item description
+* Item short description/name
+
+* Item long description (optional)
 
 * Status
 
