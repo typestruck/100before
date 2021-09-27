@@ -69,6 +69,10 @@ The following data about an User is visible to other Users on the application:
 
     * TBD
 
+* Verification (Premium)
+
+    * Premium users are displayed in a special (TBD) way in the UI
+
 Conversely, the following information is private:
 
 * Email

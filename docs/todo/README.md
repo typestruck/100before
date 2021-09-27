@@ -8,7 +8,9 @@ Features related to bucket lists
 
 2. [Todo management](#todo-management)
 
-3. [Notifications](#notifications)
+3. [Todo logs](#todo-logs)
+
+4. [Notifications](#notifications)
 
 ## Todo information
 
@@ -50,11 +52,21 @@ Each item on a list has the following fields
     * Public
     * Private (item description not visible to other users)
 
+## Todo logs/comments
+
+Premium users can add updates (aka a log) of their bucket lists. These should be displayed under the list but must refer to specific items.
+
+Any user can leave comments on other users lists. These comments can reference items or log updates.
+
+Log/comment management/privacy is TBD.
+
 ## Todo management
 
 Users can create, abandon, freeze and delete bucket lists. By default, each user can make two lists, but premium gets unlimited lists.
 
 Items on a list can be modified freely, as well deleted and rearranged.
+
+Premium users get a certificate (TBD) whenever completing all items in a bucket list.
 
 ## Notifications
 
