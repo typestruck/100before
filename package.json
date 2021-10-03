@@ -1,0 +1,24 @@
+{
+  "name": "100before",
+  "version": "0.0.1",
+  "description": "A 100 things to do before ____",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "watch": "nodemon loader/server.js --watch output/Server*/**/* --watch output/Shared*/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanchat/100before.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/melanchat/100before/issues"
+  },
+  "homepage": "https://github.com/melanchat/100before#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

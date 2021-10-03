@@ -1,4 +1,4 @@
-module Main where
+module Server.Main where
 
 import Prelude
 
@@ -17,4 +17,3 @@ main = do
             { guards: {}
             , handlers: SH.handlers {}
             }
-      EC.log $ "HTTP now up on http://localhost:" <> show port
