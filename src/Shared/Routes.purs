@@ -25,7 +25,6 @@ instance EncodeResponse Html where
             , status
             }
 
-
 routes ∷
       Spec
             { guards ∷ {}
@@ -33,6 +32,16 @@ routes ∷
                     { landing ∷
                             GET "/"
                                   { response ∷ Html
+                                  }
+                     , developmentFiles ∷
+                            GET "/client/<..path>"
+                                  { params ∷ { path ∷ List String }
+                                  , response ∷ File
+                                  }
+                        , developmentFiles ∷
+                            GET "/client/<..path>"
+                                  { params ∷ { path ∷ List String }
+                                  , response ∷ File
                                   }
                     }
             }

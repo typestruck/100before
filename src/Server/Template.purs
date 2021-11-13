@@ -18,10 +18,10 @@ type Parameters a =
 
 defaultParameters ∷ ∀ a. Parameters a
 defaultParameters =
-      { title: "MelanChat - Friendly Random Chat"
+      { title: "100before"
       , javascript: []
       , css: []
-      , --REFACTOR: should just be a list of file names
+      ,
         content: []
       , footer: []
       }

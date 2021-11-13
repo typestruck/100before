@@ -6,7 +6,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "watch": "nodemon loader/server.js --watch output/Server*/**/* --watch output/Shared*/**/*"
+    "watch": "nodemon loader/server.js --watch output/Server*/**/* --watch output/Shared*/**/*",
+    "native": "spago bundle-app -m Client.Native.Main --to index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,23 @@
     "url": "https://github.com/melanchat/100before/issues"
   },
   "homepage": "https://github.com/melanchat/100before#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.66.0"
+  },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.13",
+    "react-native-cli": "^2.0.1",
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
