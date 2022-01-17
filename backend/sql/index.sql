@@ -1,8 +1,8 @@
 create table users (
     id integer primary key generated always as identity,
     name text not null,
-    avatar text not null,
-    description text not null,
+    avatar text,
+    description text,
     birthday timestamptz,
     email text not null,
     password text not null
